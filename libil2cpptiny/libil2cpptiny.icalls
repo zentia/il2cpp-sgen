@@ -1,0 +1,83 @@
+// System.Diagnostics.Debugger
+>icalls/mscorlib/System.Diagnostics/Debugger.h
+System.Diagnostics.Debugger::IsAttached_internal() mscorlib::System::Diagnostics::Debugger::IsAttached_internal
+
+// System.Threading.Interlocked
+>vm-utils/icalls/mscorlib/System.Threading/Interlocked.h
+System.Threading.Interlocked::Add(System.Int32&,System.Int32) mscorlib::System::Threading::Interlocked::Add
+System.Threading.Interlocked::Add(System.Int64&,System.Int64) mscorlib::System::Threading::Interlocked::Add64
+System.Threading.Interlocked::CompareExchange(System.Double&,System.Double,System.Double) mscorlib::System::Threading::Interlocked::CompareExchangeDouble
+System.Threading.Interlocked::CompareExchange(System.Int32&,System.Int32,System.Int32) mscorlib::System::Threading::Interlocked::CompareExchange
+System.Threading.Interlocked::CompareExchange(System.Int64&,System.Int64,System.Int64) mscorlib::System::Threading::Interlocked::CompareExchange64
+System.Threading.Interlocked::CompareExchange(System.IntPtr&,System.IntPtr,System.IntPtr) mscorlib::System::Threading::Interlocked::CompareExchangeIntPtr
+System.Threading.Interlocked::CompareExchange(System.Object&,System.Object,System.Object) mscorlib::System::Threading::Interlocked::CompareExchange_T
+System.Threading.Interlocked::CompareExchange(System.Single&,System.Single,System.Single) mscorlib::System::Threading::Interlocked::CompareExchangeSingle
+System.Threading.Interlocked::CompareExchange(T&,T,T) mscorlib::System::Threading::Interlocked::CompareExchange_T
+System.Threading.Interlocked::Decrement(System.Int32&) mscorlib::System::Threading::Interlocked::Decrement
+System.Threading.Interlocked::Decrement(System.Int64&) mscorlib::System::Threading::Interlocked::Decrement64
+System.Threading.Interlocked::Exchange(T&,T,T) mscorlib::System::Threading::Interlocked::ExchangePointer
+System.Threading.Interlocked::Exchange(System.Double&,System.Double) mscorlib::System::Threading::Interlocked::ExchangeDouble
+System.Threading.Interlocked::Exchange(System.Int32&,System.Int32) mscorlib::System::Threading::Interlocked::Exchange
+System.Threading.Interlocked::Exchange(System.Int64&,System.Int64) mscorlib::System::Threading::Interlocked::Exchange64
+System.Threading.Interlocked::Exchange(System.IntPtr&,System.IntPtr) mscorlib::System::Threading::Interlocked::ExchangeIntPtr
+System.Threading.Interlocked::Exchange(System.Object&,System.Object) mscorlib::System::Threading::Interlocked::ExchangePointer
+System.Threading.Interlocked::Exchange(System.Single&,System.Single) mscorlib::System::Threading::Interlocked::ExchangeSingle
+System.Threading.Interlocked::Increment(System.Int32&) mscorlib::System::Threading::Interlocked::Increment
+System.Threading.Interlocked::Increment(System.Int64&) mscorlib::System::Threading::Interlocked::Increment64
+System.Threading.Interlocked::Read(System.Int64&) mscorlib::System::Threading::Interlocked::Read
+System.Threading.Interlocked::CompareExchange(System.Int32&,System.Int32,System.Int32,System.Boolean&) mscorlib::System::Threading::Interlocked::CompareExchange
+
+// System.Math
+>vm-utils/icalls/mscorlib/System/Math.h
+System.Math::Acos(System.Double) mscorlib::System::Math::Acos
+System.Math::Asin(System.Double) mscorlib::System::Math::Asin
+System.Math::Atan(System.Double) mscorlib::System::Math::Atan
+System.Math::Atan2(System.Double,System.Double) mscorlib::System::Math::Atan2
+System.Math::Cos(System.Double) mscorlib::System::Math::Cos
+System.Math::Cosh(System.Double) mscorlib::System::Math::Cosh
+System.Math::Exp(System.Double) mscorlib::System::Math::Exp
+System.Math::Floor(System.Double) mscorlib::System::Math::Floor
+System.Math::Log(System.Double) mscorlib::System::Math::Log
+System.Math::Log10(System.Double) mscorlib::System::Math::Log10
+System.Math::Pow(System.Double,System.Double) mscorlib::System::Math::Pow
+System.Math::Round(System.Double) mscorlib::System::Math::Round
+System.Math::Round(System.Double,System.Int32) mscorlib::System::Math::RoundDigits
+System.Math::RoundMidpoint(System.Double,System.Int32,System.Boolean) mscorlib::System::Math::RoundMidpoint
+System.Math::Sin(System.Double) mscorlib::System::Math::Sin
+System.Math::Sinh(System.Double) mscorlib::System::Math::Sinh
+System.Math::Sqrt(System.Double) mscorlib::System::Math::Sqrt
+System.Math::Tan(System.Double) mscorlib::System::Math::Tan
+System.Math::Tanh(System.Double) mscorlib::System::Math::Tanh
+System.Math::Abs(System.Double) mscorlib::System::Math::Abs
+System.Math::Ceiling(System.Double) mscorlib::System::Math::Ceiling
+System.Math::SplitFractionDouble(System.Double*) mscorlib::System::Math::SplitFractionDouble
+System.Math::Abs(System.Single) mscorlib::System::Math::Abs
+
+// System.GC
+>icalls/mscorlib/System/GC.h
+System.GC::InternalCollect(System.Int32) mscorlib::System::GC::InternalCollect
+
+// System.Runtime.InteropServices.GCHandle
+>icalls/mscorlib/System.Runtime.InteropServices/GCHandle.h
+System.Runtime.InteropServices.GCHandle::FreeHandle(System.Int32) mscorlib::System::Runtime::InteropServices::GCHandle::FreeHandle
+System.Runtime.InteropServices.GCHandle::GetAddrOfPinnedObject(System.Int32) mscorlib::System::Runtime::InteropServices::GCHandle::GetAddrOfPinnedObject
+System.Runtime.InteropServices.GCHandle::GetTarget(System.Int32) mscorlib::System::Runtime::InteropServices::GCHandle::GetTarget
+System.Runtime.InteropServices.GCHandle::GetTargetHandle(System.Object,System.Int32,System.Runtime.InteropServices.GCHandleType) mscorlib::System::Runtime::InteropServices::GCHandle::GetTargetHandle
+
+// System.Runtime.InteropServices.Marshal
+>icalls/mscorlib/System.Runtime.InteropServices/Marshal.h
+System.Runtime.InteropServices.Marshal::GetLastWin32Error() mscorlib::System::Runtime::InteropServices::Marshal::GetLastWin32Error
+
+// System.Environment
+>icalls/mscorlib/System/Environment.h
+System.Environment::GetStackTrace_internal() mscorlib::System::Environment::GetStackTrace_internal
+System.Environment::FailFast_internal(System.String) mscorlib::System::Environment::FailFast_internal
+System.Environment::GetCommandLineArgs() mscorlib::System::Environment::GetCommandLineArgs
+
+// System.Enum
+>icalls/mscorlib/System/Enum.h
+System.Enum::TinyEnumEquals(System.Object,System.Object) mscorlib::System::Enum::TinyEnumEquals
+
+// System.Type
+>icalls/mscorlib/System/Type.h
+System.Type::internal_from_handle(System.IntPtr) mscorlib::System::Type::internal_from_handle
